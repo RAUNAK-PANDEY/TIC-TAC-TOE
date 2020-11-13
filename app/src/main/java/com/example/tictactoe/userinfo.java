@@ -25,6 +25,7 @@ public class userinfo extends AppCompatActivity {
         button_rules = (Button) findViewById(R.id.button_rules);
         button2 = (Button) findViewById(R.id.button_qt);
         button1 = (Button) findViewById(R.id.button_st);
+
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -45,6 +46,7 @@ public class userinfo extends AppCompatActivity {
                 startActivity(in);
             }
         });
+
 
     }
     

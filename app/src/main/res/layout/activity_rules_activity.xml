@@ -24,11 +24,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="1. The game is played on a grid that's 3 squares by 3 squares.
-            \n\n2. The Game will be Over after 1 Minutes of start, final Winner will be declared with player having highest score
-            \n\n3. If the Scores Of both the player are equal then the game will be declared as Draw
-            \n\n4. You are X, your friend is O. Players take turns putting their marks in empty squares.
-            \n\n5. The first player to get 3 of either X or O in a row (up, down, across, or diagonally) is the winner.
-            \n\n6. When all 9 squares are full, the game is over. If no player has 3 marks in a row, the game ends in a tie."
+            \n\n2. There is no undo option while playing .it means you can't change your position once selected.
+            \n\n3. The Game will be over after 1 Minutes of start, final Winner will be declared with player having highest score.
+            \n\n4. If the Scores of both the player are equal then the game will be declared as Draw.
+            \n\n5. you can play the game choosing either X or O . You can't change your choice(i.e. either X or O) while playing this game.
+            \n\n6. If three values (eihter X or O) of the first player becomes contiguous (i.e. vertically or horizontally or diagonally) then that first player wins.
+            \n\n7. When all 9 squares are full and If no player has 3 contiguous choices (either X or O ), then the game ends and it shows Draw."
             android:textSize="20dp"/>
 
 
@@ -72,7 +73,7 @@
             \nPrasad Bhange\n"
             />
         <Button
-            android:id="@+id/back_button"
+            android:id="@+id/back_homes"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Back to Home"
