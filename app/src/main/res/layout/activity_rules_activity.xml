@@ -42,14 +42,23 @@
             android:textAlignment="center"
             android:gravity="center_horizontal"
             android:textSize="30dp"/>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Mentor"
-            android:layout_marginTop="20dp"
-            android:textAlignment="center"
-            android:gravity="center_horizontal"
-            android:textSize="25dp"/>
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Mentor"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:textAlignment="center"-->
+<!--            android:gravity="center_horizontal"-->
+<!--            android:textSize="25dp"/>-->
+<!--        <TextView-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center_horizontal"-->
+<!--            android:gravity="center"-->
+<!--            android:textSize="25dp"-->
+<!--            android:text="Prof. Vishwajit Gaikwad"-->
+<!--            />-->
         <TextView
             android:layout_marginTop="10dp"
             android:layout_width="match_parent"
@@ -57,20 +66,10 @@
             android:layout_gravity="center_horizontal"
             android:gravity="center"
             android:textSize="25dp"
-            android:text="Prof. Vishwajit Gaikwad"
-            />
-        <TextView
-            android:layout_marginTop="10dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:gravity="center"
-            android:textSize="20dp"
             android:text="\nDeveloped By:\n
-            \nAkash Yadav\n
-            \nSushil Kumar Gupta\n
             \nRaunak Kumar Pandey\n
-            \nPrasad Bhange\n"
+            \nAkash Yadav\n
+            \nSushil Kumar Gupta\n"
             />
         <Button
             android:id="@+id/back_homes"
